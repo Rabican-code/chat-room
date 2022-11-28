@@ -35,7 +35,7 @@ function App() {
       });
     })
 
-  }, []);
+  });
 
   const sendMessage = async () => {
     if (channel == null) {
